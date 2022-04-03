@@ -465,8 +465,10 @@ public class PlayerControlView extends FrameLayout {
     repeatOffButtonDrawable = resources.getDrawable(R.drawable.exo_controls_repeat_off);
     repeatOneButtonDrawable = resources.getDrawable(R.drawable.exo_controls_repeat_one);
     repeatAllButtonDrawable = resources.getDrawable(R.drawable.exo_controls_repeat_all);
-    shuffleOnButtonDrawable = resources.getDrawable(R.drawable.exo_controls_shuffle_on);
-    shuffleOffButtonDrawable = resources.getDrawable(R.drawable.exo_controls_shuffle_off);
+    //shuffleOnButtonDrawable = resources.getDrawable(R.drawable.exo_controls_shuffle_on);
+    //shuffleOffButtonDrawable = resources.getDrawable(R.drawable.exo_controls_shuffle_off);
+    shuffleOnButtonDrawable = resources.getDrawable(R.drawable.exo_controls_repeat_one);
+    shuffleOffButtonDrawable = resources.getDrawable(R.drawable.exo_controls_repeat_all);
     repeatOffButtonContentDescription =
         resources.getString(R.string.exo_controls_repeat_off_description);
     repeatOneButtonContentDescription =

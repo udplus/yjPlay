@@ -17,14 +17,14 @@ android {
     }
     signingConfigs {
         v2 {
-            storeFile file("E:\\project\\yjPlay\\app\\keys..jks")
+            storeFile file("/Users/codiworks_dev/Desktop/dev/yjPlay/app/keys..jks")
             storePassword "123456"
             keyAlias "key0"
             keyPassword "123456"
             v2SigningEnabled true
         }
         v1 {
-            storeFile file("E:\\project\\yjPlay\\app\\keys..jks")
+            storeFile file("/Users/codiworks_dev/Desktop/dev/yjPlay/app/keys..jks")
             storePassword "123456"
             keyAlias "key0"
             keyPassword "123456"
